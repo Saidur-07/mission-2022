@@ -1,0 +1,250 @@
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+h1 {
+  font-size: 3.125rem;
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+.half_width {
+  width: 50%;
+  padding-left: 2%;
+}
+
+.orange_color {
+  color: orange;
+}
+
+.focus_section {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+  margin-bottom: 5rem;
+  width: 100vw;
+  height: 70vh;
+}
+
+.focus_section .focus_text {
+  margin-left: 10%;
+  width: 50%;
+}
+
+.focus_section .focus_text h1 {
+  font-size: 4rem;
+  border-left: 4px solid salmon;
+  padding-left: 8px;
+  font-family: "Luxurious Roman", serif;
+}
+
+.focus_section .focus_text .focus_textbox {
+  width: 80%;
+}
+
+.focus_section .focus_text a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-color: #e51829c4;
+  text-align: center;
+}
+
+.focus_section .focus_image {
+  width: 50%;
+  height: auto;
+}
+
+.focus_section .focus_image .focus_person {
+  width: 60%;
+  height: auto;
+}
+
+.mission_section {
+  width: 100vw;
+  height: auto;
+  margin-bottom: 5vh;
+}
+
+.mission_section .mission_title {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.mission_section .mission_container {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+  width: 80%;
+  margin: 0 10%;
+}
+
+.mission_section .mission_container .container {
+  width: 30%;
+  min-height: auto;
+  margin-right: 2%;
+  border-radius: 20px;
+  padding: 0 2%;
+}
+
+.mission_section .mission_container .container img {
+  width: 40%;
+  height: auto;
+  margin-bottom: -30px;
+}
+
+.mission_section .mission_container .c1 {
+  background-color: #c1e4ff;
+}
+
+.mission_section .mission_container .c2 {
+  background-color: #ffe7e7;
+}
+
+.mission_section .mission_container .c3 {
+  background-color: #f7f0d5;
+}
+
+.develop_section {
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+  width: 100vw;
+  min-height: 65vh;
+  margin-top: 10vh;
+}
+
+.develop_section .develop_image {
+  width: 50%;
+  display: grid;
+  place-items: center;
+  background: url("images/shapes/shape-1.png") 20% 0% no-repeat,
+    url("images/shapes/shape-10.png") no-repeat -15% 110%;
+  background-size: 12vw;
+}
+
+.develop_section .develop_image img {
+  width: 50%;
+}
+
+.develop_section .develop_text {
+  width: 40%;
+}
+
+.develop_section .develop_text h1 {
+  font-family: "Merriweather", serif;
+}
+
+.develop_section .develop_text a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-color: #e51829c4;
+  text-align: center;
+}
+
+.global_image {
+  width: 50%;
+  display: grid;
+  place-items: center;
+  background: url("images/shapes/shape-1.png") 80% 100% no-repeat;
+  background-size: 10vw;
+}
+
+.global_image img {
+  width: 50%;
+}
+
+.global_text {
+  width: 30%;
+}
+
+.global_text h1 {
+  font-family: "Merriweather", serif;
+}
+
+.global_text a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-color: #e51829c4;
+  text-align: center;
+}
+
+.build_section {
+  width: 100vw;
+  min-height: 65vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
+}
+
+.build_section .build_title {
+  text-align: center;
+}
+
+.build_section .build_main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.build_section .develop_image {
+  width: 50%;
+  display: grid;
+  place-items: center;
+  background: url("images/shapes/shape-2.png") 30% 0% no-repeat,
+    url("images/shapes/shape-3.png") 30% 100% no-repeat,
+    url("images/shapes/shape-3.png") 75% 50% no-repeat;
+  background-size: 10vw;
+}
+
+.build_section .develop_image img {
+  width: 50%;
+}
+
+.build_section .develop_text {
+  width: 40%;
+}
+
+.build_section .develop_text h1 {
+  font-family: "Merriweather", serif;
+}
+
+.build_section .develop_text a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 40px;
+  border-radius: 5px;
+  background-color: #e51829c4;
+  text-align: center;
+}
+
+.footer_section {
+  width: 100vw;
+  min-height: 25vh;
+  background-color: #000;
+  color: white;
+  text-align: center;
+}
+
+.footer_section h1 {
+  font-family: "Vujahday Script", cursive;
+  line-height: 10vh;
+}
+
+.footer_section h1 span {
+  color: #ff5100;
+}
