@@ -248,3 +248,87 @@ h2 {
 .footer_section h1 span {
   color: #ff5100;
 }
+@media screen and (max-width: 775px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+  h2 {
+    font-size: 2rem;
+  }
+  .focus_section {
+    flex-direction: column-reverse;
+  }
+  .half_width {
+    width: 100vw;
+  }
+  .focus_text {
+    margin-left: 0%;
+    width: 100vw !important;
+  }
+  .focus_text h1 {
+    font-size: 2.8rem !important;
+    border: none !important;
+    text-align: left;
+  }
+  .focus_image {
+    width: 100% !important;
+    margin-left: 30vw;
+  }
+  .mission_container {
+    width: 100% !important;
+    margin: 0;
+    flex-direction: column;
+  }
+  .container {
+    width: 80% !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-right: 0 !important;
+    margin-left: -20% !important;
+  }
+  .develop_section {
+    flex-direction: column;
+  }
+  .develop_image {
+    width: 100vw !important;
+    background: none !important;
+  }
+  .develop_text {
+    width: 90% !important;
+  }
+  .develop_text h1 {
+    text-align: center;
+  }
+  .develop_text a {
+    margin-left: 28vw;
+  }
+  .global_image {
+    width: 100% !important;
+    background: none !important;
+  }
+  .global_text {
+    width: 90% !important;
+    margin-bottom: 12% !important;
+  }
+  .global_text h1 {
+    text-align: center;
+  }
+  .global_text a {
+    margin-left: 35vw;
+  }
+  .build_main {
+    flex-direction: column;
+  }
+  .build_section .develop_text a {
+    margin-left: 20vw;
+  }
+  .footer_section h1 {
+    line-height: 8vh;
+  }
+  .build_section .develop_text p {
+    margin-left: 20vw;
+  }
+}
